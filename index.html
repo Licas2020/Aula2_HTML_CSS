@@ -1,31 +1,26 @@
-<doctype <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="pt-BR" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Aula 3 - HTML/CSS</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-ekOryaXPbeCpWQNxMwSWVvQ0+1VrStoPJq54shlYhR8HzQgig1v5fas6YgOqLoKz" crossorigin="anonymous">
+<html lang="pt-BR">
 
-    <link rel="stylesheet"  href="CSS/style.css" />
-    <script src="main.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meu Portfolio</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-ekOryaXPbeCpWQNxMwSWVvQ0+1VrStoPJq54shlYhR8HzQgig1v5fas6YgOqLoKz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-        
     <header>
-        
-            <h1>Desenvolvedor Web Jr.</h1>
-            <img src="img/avatar.png" alt="imagem perfil elica"width="120px" height="auto">
+        <h1>Desenvolvedor Web Jr.</h1>
+        <img src="../Aula2_HTML_CSS/img/avatar.png" alt="Imagem de perfil do Marcelo" width="120px" height="auto">
         <ul>
             <li>Elica Silva</li>
-            <li><a href="mailto:elicamoura@yahoo.com.br" title="Envie um e-mail :)" i class="fas fa-envelope">elicamoura@yahoo.com.br</a></li>
-            <li><a href="tel:+551133338888"><i class="fas fa-phone"></i>11 3333-8888</a></li>
-            <li><a href="tel:+5511977775282"><i class="fas fa-phone"></i>11 7777-5282</a></li>          
+            <li><a href="mailto:meuemail@gmail.com?Subject=Contratar Dev Jr&amp;Body=Gostei do seu cv cara!&amp;bcc=marcelodiament@gmail.com" title="ME CONTRATAAAAAA!!!"><i class="fas fa-envelope"></i> elicamoura@yahoo.com.br</a></li>
+            <li><a href="tel:+551133338888" title="Ligar para Elica"><i class="fas fa-phone"></i> 11 2742-1379</a></li>
+            <li><a href="https://wa.me/+5511976052723?text=Ol%C3%A1" title="Enviar Whats para Elica"><i class="fas fa-phone"></i> 11 97777-5282</a></li>
+            <li><a target="_blank" href="https://github.com/Licas2020" title="Acessar github da Elica"><i class="fab fa-github"></i>/Elica Silva</a></li>
             <li>Parque Artur Alvim, São Paulo</li>
-            <li>
-                <a target="_blank" href="https://github.com/Licas2020"i class="fab fa-github-square"></i>Elica Silva</a>
-            </li>
         </ul>
     </header>
     <main>
@@ -33,34 +28,64 @@
             <h2>Dados Profissionais</h2>
             <article class="nivel-dois">
                 <h3>Experiência Profissional</h3>
-            
-            <!-- <hr> HR = Horizontal Row.. -->
-            <ul type="circle">
-                <li>
-                    <ul>
-                        <li><b>Sodexo</b></li>
-                        <li><i>06/2016 - Atual </i>Analista de Planejamento de Venda Senior</li>
-                    </ul>
-                </li>
-                <li>
+                <ul type="circle">
+                    <li>
                         <ul>
                             <li><b>Sodexo</b></li>
-                            <li><i>05/2015 - 05-2016</i>Analista de Inteligencia Mercado Pleno</li>
+                            <li><i>06/2015 - atual</i> | Analista Planejamento Vendas Senior</li>
                         </ul>
                     </li>
-            </ul>
-        </article>
-        <article class="nivel-dois">
-                <h3>Idiomas</h3>
-                
+                    <li>
                         <ul>
-                            <ol type="i">
-                            <li><b>Inglês - intermediário</b></li></ol>
-                            </ul>
-                       
-        
-
+                            <li><b>Sodexo</b></li>
+                            <li><i>05/2014 - 06/2015</i> | Analista de Inteligencia de Mercado Pleno</li>
+                        </ul>
+                    </li>
+                </ul>
+            </article>
+            <article class="nivel-dois">
+                <h3>Idiomas</h3>
+                <ol type="i">
+                    <li>Português Nativo</li>
+                    <li>Inglês Intermediário</li>
+                   
+                </ol>
+            </article>
+        </section>
+        <hr><!-- HR = Horizontal Row, Linha Horizontal -->
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <article class="case">
+                <h3>Agata Mac Saúde</h3>
+                <img src="img/case01.jpg" alt="case 1">
+                <p>Site institucional feito para a corretora de seguros Agata Mac. Site feito com HTML5, CSS3, JS (ES6), PHP. Site com CMS WordPress.</p>
+                <button>Ver Mais</button>
+            </article>
+            <!-- <br> -->
+            <article class="case">
+                <h3>Fardas Guará</h3>
+                <img src="img/case02.jpg" alt="case 2">
+                <p>Site institucional feito para o atliê de costura Fardas Guará. Site feito com HTML5, CSS3, JS (ES6) e PHP. Site estático.</p>
+                <button>Ver Mais</button>
+            </article>
+            <!-- <br> -->
+            <article class="case">
+                <h3>Costureira de Cenografia</h3>
+                <img src="img/case03.jpg" alt="case 3">
+                <p>Site institucional feito para o atliê de costura Fardas Guará. Site feito com HTML5, CSS3, JS (ES6) e PHP. Site estático.</p>
+                <button>Ver Mais</button>
+            </article>
         </section>
     </main>
-        </body>
+    <footer>
+        <ul>
+            <li><a href="mailto:meuemail@gmail.com?Subject=Contratar Dev Jr&amp;Body=Gostei do seu cv cara!&amp;bcc=marcelodiament@gmail.com" title="ME CONTRATAAAAAA!!!"><i class="fas fa-envelope"></i> elicamoura@yahoo.com.br</a></li>
+            <li><a href="tel:+551133338888" title="Ligar para Marcelo"><i class="fas fa-phone"></i> 11 2742-1379</a></li>
+            <li><a href="https://wa.me/+5511976052723?text=Ol%C3%A1" title="Enviar Whats para Marcelo"><i class="fas fa-phone"></i> 11 97777-5282</a></li>
+            <li><a target="_blank" href="https://github.com/Licas2020" title="Acessar github do Marcelo"><i class="fab fa-github"></i>/Elica Silvat</a></li>
+            <li><a target="_blank" href="https://linkedin.com/in/Elica Silvat" title="Acessar Linked In do Marcelo"><i class="fab fa-linkedin"></i>/Elica Silva</a></li>
+        </ul>
+    </footer>
+</body>
+
 </html>
